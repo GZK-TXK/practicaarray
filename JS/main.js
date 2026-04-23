@@ -176,14 +176,32 @@ console.log(arrayMasMayor)
 //PRACTICA 16
 //Dado un array de números, recorre el array e imprime cada uno de sus elementos en la consola.
 
+let array16 = [75,62,9,47,2,46]
 
+array16.forEach(function(num){
+    return console.log(num)
+})
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //PRACTICA 17
 //Dado un array de números, genera un nuevo array en el que cada número sea el doble de su valor original.
 
+let array17 =[59,4,67,103,7,64]
 
+let arrayDoble = array17.map(function(num){
+    return num*2
+})
+
+console.log(arrayDoble)
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //PRACTICA 18
 //Dado un array de nombres (strings), genera un nuevo array donde cada nombre esté en mayúsculas.
+
+let array18 = ["Carlos", "Ane", "Josue", "Maritere"]
+
+let arrayMayusculas = array18.map(function(string){
+    return string.toUpperCase(array18)
+})
+
+console.log(arrayMayusculas)
